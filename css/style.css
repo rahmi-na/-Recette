@@ -108,6 +108,55 @@ ol {
 	margin: 0;
 }
 
+/* baru ditambahkan */
+
+.row {
+	margin-right: -150px;
+}
+
+/* .resep img {
+	align-content: center;
+	margin-left: 25%;
+	margin-right: 50%;
+} */
+
+.gambar {
+	align-content: center;
+	/* margin-left: 25px; */
+}
+
+.judulResep {
+ text-shadow: gray;
+ font-family: 'Original Surfer', cursive;
+}
+
+.resep {
+	align-content: center;
+	padding-left: 25%;
+	padding-right: 25%;
+	
+}
+
+.resep h3 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: 'Original Surfer', cursive;
+}
+
+.resep h5 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Original Surfer', cursive;
+}
+
+.ket {
+	padding-top: 10px;
+	font-family: 'Original Surfer', cursive;
+}
+
+/* selesai  */
+
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -1496,55 +1545,6 @@ ol {
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
 }
-
-/* baru ditambahkan */
-
-.row {
-	margin-right: -150px;
-}
-
-/* .resep img {
-	align-content: center;
-	margin-left: 25%;
-	margin-right: 50%;
-} */
-
-.gambar {
-	align-content: center;
-	/* margin-left: 25px; */
-}
-
-.judulResep {
- text-shadow: gray;
- font-family: 'Original Surfer', cursive;
-}
-
-.resep {
-	align-content: center;
-	padding-left: 25%;
-	padding-right: 25%;
-	
-}
-
-.resep h3 {
-	padding-top: 15px;
-	padding-bottom: 10px;
-	text-align: center;
-	font-family: 'Original Surfer', cursive;
-}
-
-.resep h5 {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: 'Original Surfer', cursive;
-}
-
-.ket {
-	padding-top: 10px;
-	font-family: 'Original Surfer', cursive;
-}
-
-/* selesai  */
 
 .product__item__text {
 	text-align: center;

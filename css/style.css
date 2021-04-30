@@ -224,12 +224,31 @@ ol {
 .site-btn {
 	font-size: 14px;
 	color: #ffffff;
-	font-weight: 800;
+	font-weight: 700;
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 13px 30px 12px;
 	background: #7fad39;
 	border: none;
+}
+
+.sign-header {
+	padding: 24px 0;
+}
+
+.sign-header ul li {
+	list-style: noe;
+	display: inline-block;
+}
+
+.sign-btn {
+	font-size: 14px;
+	color: #ffffff;
+	display: inline-block;
+	padding: 12px 24px 12px;
+	background: #7fad39;
+	border: none;
+	border-radius: 25px;
 }
 
 /* Preloder */
@@ -2927,6 +2946,19 @@ display-flex,
 	display: -webkit-flex;
 }
 
+.display-flex-center {
+	justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-o-justify-content: center;
+	-ms-justify-content: center;
+	align-items: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-o-align-items: center;
+	-ms-align-items: center;
+}
+
 /* @extend list-type-ulli; */
 list-type-ulli,
 .socials {
@@ -3140,7 +3172,7 @@ label {
 	color: #222;
 }
 
-#id-signup {
+#id-sign {
 	width: 100%;
 	display: block;
 	border: none;
@@ -3150,7 +3182,7 @@ label {
 	box-sizing: border-box;
 }
 
-#id-signup,
+#id-sign,
 select,
 textarea {
 	outline: none;
@@ -3165,7 +3197,7 @@ textarea {
 	font-size: 18px;
 }
 
-#id-signup,
+#id-sign,
 select,
 textarea {
 	outline: none;
@@ -3176,7 +3208,7 @@ textarea {
 	-ms-appearance: unset !important;
 }
 
-#id-signup[type=checkbox]:not(old) {
+#id-sign[type=checkbox]:not(old) {
 	width: 2em;
 	margin: 0;
 	padding: 0;
@@ -3184,7 +3216,7 @@ textarea {
 	display: none;
 }
 
-#id-signup[type=checkbox] {
+#id-sign[type=checkbox] {
 	appearance: checkbox !important;
 	-moz-appearance: checkbox !important;
 	-webkit-appearance: checkbox !important;
@@ -3192,7 +3224,7 @@ textarea {
 	-ms-appearance: checkbox !important;
 }
 
-#id-signup[type=checkbox]:not(old)+label {
+#id-sign[type=checkbox]:not(old)+label {
 	display: inline-block;
 	line-height: 1.5em;
 	margin-top: 6px;
@@ -3208,7 +3240,7 @@ textarea {
 	-ms-transform: translateY(0);
 }
 
-#id-signup[type=checkbox]:not(old)+label>.span1 {
+#id-sign[type=checkbox]:not(old)+label>.span1 {
 	display: inline-block;
 	width: 13px;
 	height: 13px;
@@ -3235,7 +3267,7 @@ textarea {
 }
 
 .form-group:last-child {
-	margin-bottom: 0px;
+	margin-bottom: 85px;
 }
 
 .form-submit {
@@ -3259,12 +3291,12 @@ textarea {
 	margin: 0 55px;
 }
 
-.figure-signup {
+.figure-sign {
 	margin-bottom: 50px;
 	text-align: center;
 }
 
-.img-signup {
+.img-sign {
 	max-width: 100%;
 	height: auto;
 }
@@ -3293,6 +3325,65 @@ textarea {
 	margin-left: 110px;
 	margin-right: 20px;
 	margin-top: 10px;
+}
+
+.signin-form {
+	margin-right: 90px;
+	margin-left: 80px;
+}
+
+.social-label {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.socials {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.socials #li-signin {
+	padding: 5px;
+}
+
+.socials #li-signin #a-signin {
+	text-decoration: none;
+}
+
+.socials #li-signin #a-signin #i-signin {
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-webkit-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.fa-facebook-square {
+	background: #3b5998;
+}
+
+.fa-twitter-square {
+	background: #1da0f2;
+}
+
+.fa-google {
+	background: #e72734;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
@@ -3985,6 +4076,17 @@ textarea {
 		-ms-order: 2;
 	}
 
+	.signin-form {
+		order: 1;
+		-moz-order: 1;
+		-webkit-order: 1;
+		-o-order: 1;
+		-ms-order: 1;
+		margin-right: 0px;
+		margin-left: 0px;
+		padding: 0 30px;
+	}
+
 }
 
 /* Small Device = 320px */
@@ -4055,5 +4157,10 @@ textarea {
 	.section-tittle .h2-service {
 		font-size: 39px;
 		line-height: 1.3
+	}
+
+	.social-label {
+		margin-right: 0;
+		margin-bottom: 10px;
 	}
 }
